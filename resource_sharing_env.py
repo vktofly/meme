@@ -77,3 +77,5 @@ class ResourceSharingEnv(gym.Env):
     def render(self, mode="human"):
         """Render the current state (for debugging)."""
         print(f"Round {self.current_round}: Pool={self.resource_pool}, Actions={self.prev_actions}")
+
+# This is a test.
